@@ -29,6 +29,8 @@ axios.get(API_URL, {
 
         matchList.forEach(match => {
             console.log(match.id);
+            console.log(match.name);
+            
         });
 
 
